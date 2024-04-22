@@ -3,10 +3,10 @@ import "./Possibilities.css";
 
 function Possibilities() {
     return (
-        <div>
-        <h2>Possibilities</h2>
+        <div >
+      
         </div>
-    );
+    );  
 }
 
 export default Possibilities;

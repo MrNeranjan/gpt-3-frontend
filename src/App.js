@@ -5,7 +5,7 @@ import {
   Footer,
   Blog,
   Possibilities,
-  Feature,
+  FeatureM,
   WhatGPT3,
   Header,
 } from "./containers";
@@ -19,7 +19,7 @@ function App() {
       </div>
       <Brand /> 
       <WhatGPT3 />
-      <Feature />
+      <FeatureM />
       <Possibilities />
       <CTA />
       <Blog />
