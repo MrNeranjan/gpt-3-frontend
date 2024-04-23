@@ -1,4 +1,4 @@
-import React from "react";
+import React ,{useEffect }from "react";
 import "./App.css";
 
 import {
@@ -11,6 +11,11 @@ import {
 } from "./containers";
 import { CTA, Brand, Navbar } from "./components";
 function App() {
+
+  useEffect(() => {
+    document.title = "GPT-3";
+  }, []);
+
   return (
     <div className="App">
       <div className="gradient_bg">

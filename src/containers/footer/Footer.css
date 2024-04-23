@@ -1,0 +1,138 @@
+
+.gpt3_footer-container {
+    background: #031B34;
+}
+
+.gpt3_footer-container h1 {
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    line-height: 75px;
+    text-align: center;
+    letter-spacing: -0.04em;
+}
+
+.gpt3_footer-container button {
+    align-self: center;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+    padding: 20px ;
+    color: #fff;
+    font-family: var(--font-family);
+    cursor: pointer;
+    border-color: aliceblue;
+    border-radius: 2px;
+    background: #031B34;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+
+.gpt3_footer-container-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 6rem;
+}
+
+.gpt3_footer-container-footer-logolinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+
+.gpt3_footer-container-footer-logo p,
+.gpt3_footer-container-footer-logolinks h4,
+.gpt3_footer-container-footer-logolinks p  {
+    font-family: var(--font-family);
+    font-style: normal;
+    letter-spacing: -0.04em;
+    color: #FFFFFF;
+    padding: 0.5rem 0;
+}
+
+.gpt3_footer-container-footer-logo p,
+.gpt3_footer-container-footer-logolinks p {
+    font-size: 12px;
+    line-height: 14px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.gpt3_footer-container-footer-logolinks h4 {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 800;
+
+}
+
+.gpt3_footer-container-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.gpt3_footer-container-footer-logo p {
+    max-width: 200px;
+}
+
+.gpt3_footer-container-footer-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 6rem 0;
+    color: #fff;
+    font-family: var(--font-family);
+    font-size: 12px;
+    line-height: 14px;
+    font-feature-settings: 'liga' off; 
+}
+
+
+@media  screen and (max-width: 830px) {
+    .gpt3_footer-container-header {
+        padding: 4rem;
+    }
+    .gpt3_footer-container-header h1 {
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .gpt3_footer-container-footer {
+        flex-direction: column;
+
+    }
+    .gpt3_footer-container-footer-logo p {
+        max-width: 100%;
+    }
+    .gpt3_footer-container-footer-footer {
+        padding: 5rem 4rem 0;
+    }
+    .gpt3_footer-container-footer-logolinks {
+        margin-top: 2rem;
+    }
+    
+}
+
+
+@media  screen and (max-width: 500px) {
+    .gpt3_footer-container-header h1 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .gpt3_footer-container-footer-footer {
+        padding: 5rem 2rem 0;
+    }
+    .gpt3_footer-container-footer-logo p {
+        max-width: 100%;
+    }
+    .gpt3_footer-container-footer-logolinks {
+        margin-top: 2rem;
+    }
+    
+}
