@@ -30,7 +30,7 @@ function Footer() {
         </div>
         <div className="gpt3_footer-container-footer-logolinks">
           <h4>Get in Touch</h4>
-          <p>Crechterwoord K12 182 DK Alknjkcb</p>
+          <p>Neranjan-gpt3</p>
           <p>085-132567</p>
           <p>info@payme.net</p>
         </div>
