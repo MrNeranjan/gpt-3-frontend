@@ -38,7 +38,7 @@ function FeatureM() {
       </div>
       <div className="gpt3_feature_container-features">
         {featureList.map((feature, index) => (
-          <Feature title={feature.title}   text ={feature.text} index ={feature.title+index}/>
+          <Feature key={index} title={feature.title}   text ={feature.text} index ={feature.title+index}/>
         ))}
       </div>
     </div>
